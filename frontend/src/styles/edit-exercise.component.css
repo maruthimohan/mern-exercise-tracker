@@ -1,0 +1,22 @@
+.main-form {
+    width: 350px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.form-field {
+    margin: 15px;
+    width: 100%;
+}
+
+.form-field .MuiFormControl-root {
+    width: 100%;
+}
+
+.center {
+    text-align: center;
+}
+
+.save-button {
+    margin-top: 40px;
+}

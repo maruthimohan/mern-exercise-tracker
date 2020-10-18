@@ -1,0 +1,22 @@
+{
+  "name": "mern-exercise-tracker",
+  "version": "1.0.0",
+  "description": "This app is used to track the exercise details",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd backend && npm run start",
+    "startdev": "cd backend && npm run start",
+    "dev": "concurrently \"cd backend && npm run dev\" \"cd frontend && npm start\" ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "react"
+  ],
+  "author": "Maruthi Mohan",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^5.2.0"
+  }
+}
